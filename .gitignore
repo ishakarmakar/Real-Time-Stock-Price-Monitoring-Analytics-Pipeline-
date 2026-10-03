@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Spark Streaming checkpoints
+checkpoints/
+tmp/
+
+# Output files
+output/*.csv
+output/*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating System
+.DS_Store
+Thumbs.db
+data/
